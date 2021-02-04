@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C85E9E4E25CCA3AE00EA99F8 /* AnimalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9E4D25CCA3AE00EA99F8 /* AnimalsView.swift */; };
 		C8FF3A8A25CB9F1C00B57FCB /* animals_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FF3A8925CB9F1C00B57FCB /* animals_appApp.swift */; };
 		C8FF3A8C25CB9F1C00B57FCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FF3A8B25CB9F1C00B57FCB /* ContentView.swift */; };
 		C8FF3A8E25CB9F1D00B57FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8FF3A8D25CB9F1D00B57FCB /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C85E9E4D25CCA3AE00EA99F8 /* AnimalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsView.swift; sourceTree = "<group>"; };
 		C8FF3A8625CB9F1C00B57FCB /* animals-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "animals-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8FF3A8925CB9F1C00B57FCB /* animals_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animals_appApp.swift; sourceTree = "<group>"; };
 		C8FF3A8B25CB9F1C00B57FCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				C8FF3A8B25CB9F1C00B57FCB /* ContentView.swift */,
+				C85E9E4D25CCA3AE00EA99F8 /* AnimalsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				C8FF3AA625CB9FC200B57FCB /* DataService.swift in Sources */,
 				C8FF3A8C25CB9F1C00B57FCB /* ContentView.swift in Sources */,
+				C85E9E4E25CCA3AE00EA99F8 /* AnimalsView.swift in Sources */,
 				C8FF3AA325CB9FB200B57FCB /* Animals.swift in Sources */,
 				C8FF3A9F25CB9FA800B57FCB /* AnimalsModel.swift in Sources */,
 				C8FF3A8A25CB9F1C00B57FCB /* animals_appApp.swift in Sources */,
