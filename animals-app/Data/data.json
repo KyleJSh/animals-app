@@ -1,0 +1,68 @@
+[
+    {
+        "title":"Badger",
+        "image1":"badger1",
+        "image2":"badger2",
+        "image3":"badger3",
+        "family":"Family - Mustelids",
+        "facts":[
+            "Badgers are found in North America, Ireland, Great Britain and most of Europe. There are species in Japan, China, Indonesia and Malaysia. The honey badger is found in sub-Saharan Africa, the Arabian Desert, Turkmenistan, and India.",
+            "Badgers are nocturnal mammals.",
+            "Badgers can grow to nearly a meter in length. The European badger is larger than the American badger and the Honey badger.",
+            "The badger can run up to 30 km/h (19 mph) for a short period of time."
+        ]
+    },
+    {
+        "title":"Elephant",
+        "image1":"elephant1",
+        "image2":"elephant2",
+        "image3":"elephant3",
+        "family":"Family - Elephantidae",
+        "facts":[
+            "There are two types of elephant, the Asian elephant and the African elephant (although sometimes the African Elephant is split into two species, the African Forest Elephant and the African Bush Elephant).",
+            "An elephant can use its tusks to dig for ground water. An adult elephant needs to drink around 210 litres of water a day.",
+            "Elephants have large, thin ears. Their ears are made up of a complex network of blood vessels which help regulate their temperature. Blood is circulated through their ears to cool them down in hot climates.",
+            "Elephants have no natural predators. However, lions will sometimes prey on young or weak elephants in the wild. The main risk to elephants is from humans through poaching and changes to their habitat."
+        ]
+    },
+    {
+        "title":"Leopard",
+        "image1":"leopard1",
+        "image2":"leopard2",
+        "image3":"leopard3",
+        "family":"Family - Felidae",
+        "facts":[
+            "Leopards are well known for their cream and gold spotted fur, but some leopards have black fur with dark spots. These black leopards are often mistaken for panthers.",
+            "Adult leopards are solitary animals. Each adult leopard has its own territory where it lives and, although they often share parts of it, they try to avoid one another.",
+            "A leopard’s tail is just about as long as its entire body. This helps it with balance and enables it to make sharp turns quickly.",
+            "Leopards protect their food from other animals by dragging it high up into the trees. A leopard will often leave their prey up in the tree for days and return only when they are hungry!"
+        ]
+    },
+    {
+        "title":"Bear",
+        "image1":"bear1",
+        "image2":"bear2",
+        "image3":"bear3",
+        "family":"Family - Ursidae",
+        "facts":[
+            "Bears are extraordinarily intelligent animals. They have far superior navigation skills to humans; excellent memories; large brain to body ratio; and use tools in various contexts from play to hunting.",
+            "Bears grieve deeply for others. Cubs are known to moan and cry when separated from their mothers.  This can go on for weeks if their mothers are killed by hunters.",
+            "Bears care deeply about family members. They will risk their lives and even fight to the death in order to save a cub or sibling from danger.",
+            "Bears were often honoured in the cultures of many early civilisations. They were seen as a symbol of power, strength and love."
+        ]
+    },
+    {
+        "title":"Skunk",
+        "image1":"skunk1",
+        "image2":"skunk2",
+        "image3":"skunk3",
+        "family":"Family - Mephitidae",
+        "facts":[
+            "The oily liquid that skunks produce is used as a powerful predator-deterrent which causes no real damage to its victims.",
+            "Skunks have two anal glands that carry the spray material. These glands carry limited amount, enough to spray 5 to 8 times.",
+            "A skunk will always give a warning before spraying: it turns its back to the target, hisses and stamps its feet.",
+            "They have a variety of striped, spotted and swirled patterns but all are a vivid black and white which makes them easily identifiable.",
+            "Skunks usually nest in burrows constructed by other animals, but they also live in hollow logs or even abandoned buildings."
+        ]
+    }
+]

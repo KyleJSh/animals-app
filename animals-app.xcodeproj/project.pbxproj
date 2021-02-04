@@ -11,6 +11,10 @@
 		C8FF3A8C25CB9F1C00B57FCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FF3A8B25CB9F1C00B57FCB /* ContentView.swift */; };
 		C8FF3A8E25CB9F1D00B57FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8FF3A8D25CB9F1D00B57FCB /* Assets.xcassets */; };
 		C8FF3A9125CB9F1D00B57FCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8FF3A9025CB9F1D00B57FCB /* Preview Assets.xcassets */; };
+		C8FF3A9F25CB9FA800B57FCB /* AnimalsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FF3A9E25CB9FA800B57FCB /* AnimalsModel.swift */; };
+		C8FF3AA325CB9FB200B57FCB /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FF3AA225CB9FB200B57FCB /* Animals.swift */; };
+		C8FF3AA625CB9FC200B57FCB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FF3AA525CB9FC200B57FCB /* DataService.swift */; };
+		C8FF3AA925CB9FD200B57FCB /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C8FF3AA825CB9FD200B57FCB /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		C8FF3A8D25CB9F1D00B57FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8FF3A9025CB9F1D00B57FCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C8FF3A9225CB9F1D00B57FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8FF3A9E25CB9FA800B57FCB /* AnimalsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsModel.swift; sourceTree = "<group>"; };
+		C8FF3AA225CB9FB200B57FCB /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		C8FF3AA525CB9FC200B57FCB /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C8FF3AA825CB9FD200B57FCB /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				C8FF3A8925CB9F1C00B57FCB /* animals_appApp.swift */,
-				C8FF3A8B25CB9F1C00B57FCB /* ContentView.swift */,
+				C8FF3A9D25CB9F7E00B57FCB /* Views */,
+				C8FF3A9C25CB9F7900B57FCB /* ViewModels */,
+				C8FF3A9B25CB9F7400B57FCB /* Models */,
+				C8FF3A9A25CB9F6A00B57FCB /* Services */,
+				C8FF3A9925CB9F6500B57FCB /* Data */,
 				C8FF3A8D25CB9F1D00B57FCB /* Assets.xcassets */,
 				C8FF3A9225CB9F1D00B57FCB /* Info.plist */,
 				C8FF3A8F25CB9F1D00B57FCB /* Preview Content */,
@@ -67,6 +79,46 @@
 				C8FF3A9025CB9F1D00B57FCB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8FF3A9925CB9F6500B57FCB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C8FF3AA825CB9FD200B57FCB /* data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C8FF3A9A25CB9F6A00B57FCB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C8FF3AA525CB9FC200B57FCB /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C8FF3A9B25CB9F7400B57FCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C8FF3AA225CB9FB200B57FCB /* Animals.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C8FF3A9C25CB9F7900B57FCB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C8FF3A9E25CB9FA800B57FCB /* AnimalsModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C8FF3A9D25CB9F7E00B57FCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8FF3A8B25CB9F1C00B57FCB /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8FF3A9125CB9F1D00B57FCB /* Preview Assets.xcassets in Resources */,
+				C8FF3AA925CB9FD200B57FCB /* data.json in Resources */,
 				C8FF3A8E25CB9F1D00B57FCB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +191,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8FF3AA625CB9FC200B57FCB /* DataService.swift in Sources */,
 				C8FF3A8C25CB9F1C00B57FCB /* ContentView.swift in Sources */,
+				C8FF3AA325CB9FB200B57FCB /* Animals.swift in Sources */,
+				C8FF3A9F25CB9FA800B57FCB /* AnimalsModel.swift in Sources */,
 				C8FF3A8A25CB9F1C00B57FCB /* animals_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
